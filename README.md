@@ -207,3 +207,6 @@ I knew it was successful because it showed ```anonymous_enable=NO```.
 
 
 ### Now I will run another scan to verify that vulnerabilities are gone and that the VM is back to its baseline.
+
+### The results from the final scan are in, and the two main vulnerabilities have been removed. You can view the final scan results [here](https://github.com/goubx/Programmatic-Remediation-in-Linux-BASH-Scripting-/blob/main/Final%20Scan%20Results.pdf)
+
