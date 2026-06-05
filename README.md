@@ -161,13 +161,14 @@ I was logged in, which proves that the vulnerability exists. I used control Z to
 
 ## The second scan is now complete. Results can be viewed here
 
-As you can see, the vulnerabilities increased from:
+As you can see, the vulnerabilities we added from:
 
-- Critical
-- High
-- Medium
-- Low
+<img src="https://i.imgur.com/TLDDJZB.png" height="80%" width="80%" alt="Agent Group created"/>
 
+As you can see, new vulnerabilities have been added, such as:
+
+- Anonymous FTP Enabled
+- SMB Signing not required
 
 ## Now I'm going to use my bash scripts to remediate the vulnerabilities.
 
