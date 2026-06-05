@@ -159,7 +159,7 @@ I was logged in, which proves that the vulnerability exists. I used control Z to
 
 ### Now its time for me to run another scan and view the results.
 
-## The second scan is now complete. Results can be viewed here
+## The second scan is now complete. Results can be viewed [here](https://github.com/goubx/Programmatic-Remediation-in-Linux-BASH-Scripting-/blob/main/Second%20Scan.pdf)
 
 As you can see, the vulnerabilities we added from:
 
@@ -185,6 +185,8 @@ Verify it:
 ```bash
 testparm -s | grep "server signing"
 ```
+<img src="https://i.imgur.com/gWOSRtM.png" height="80%" width="80%" alt="Agent Group created"/>
+
 **Step 2: Remediate Anonymous FTP**
 
 I ran this command:
@@ -200,5 +202,8 @@ grep anonymous_enable /etc/vsftpd.conf
 ```
 
 I knew it was successful because it showed ```anonymous_enable=NO```.
+
+<img src="https://i.imgur.com/PwWbvWN.png" height="80%" width="80%" alt="Agent Group created"/>
+
 
 ### Now I will run another scan to verify that vulnerabilities are gone and that the VM is back to its baseline.
